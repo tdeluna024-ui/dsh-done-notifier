@@ -1,0 +1,3 @@
+- insert:
+  - id: done-notifier
+    name: dsh-done-notifier

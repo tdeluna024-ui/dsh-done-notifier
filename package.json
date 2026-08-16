@@ -1,0 +1,26 @@
+{
+  "name": "dsh-done-notifier",
+  "version": "0.1.0",
+  "description": "当 DeepSeek Harness 模型完成回复、等待用户输入时，弹出 macOS 系统通知并播放童声提示音「老板，我干完活儿了！快来！」。",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "assets/notify-kid.mp3"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notification",
+    "notifier",
+    "macos"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

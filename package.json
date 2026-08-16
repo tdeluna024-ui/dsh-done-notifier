@@ -7,7 +7,8 @@
   "files": [
     "index.js",
     "cordis.patch.yml",
-    "assets/notify-kid.mp3"
+    "assets/notify-kid.mp3",
+    "docs/demo.gif"
   ],
   "keywords": [
     "dsh",
